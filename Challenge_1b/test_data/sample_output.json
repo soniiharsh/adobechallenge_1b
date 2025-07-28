@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "input_documents": [
+      "south_france_guide_1.pdf",
+      "south_france_guide_2.pdf",
+      "south_france_guide_3.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a 4-day trip for 10 college friends to South of France",
+    "processing_timestamp": "2025-07-28T21:45:00"
+  },
+  "extracted_sections": [
+    {
+      "document": "south_france_guide_1.pdf",
+      "section_title": "Top Attractions",
+      "importance_rank": 1,
+      "page_number": 3
+    },
+    {
+      "document": "south_france_guide_2.pdf",
+      "section_title": "Local Experiences",
+      "importance_rank": 2,
+      "page_number": 5
+    },
+    {
+      "document": "south_france_guide_3.pdf",
+      "section_title": "Budget Travel Tips",
+      "importance_rank": 3,
+      "page_number": 2
+    },
+    {
+      "document": "south_france_guide_2.pdf",
+      "section_title": "Accommodation Options",
+      "importance_rank": 4,
+      "page_number": 6
+    },
+    {
+      "document": "south_france_guide_1.pdf",
+      "section_title": "Getting Around",
+      "importance_rank": 5,
+      "page_number": 4
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "south_france_guide_1.pdf",
+      "refined_text": "The French Riviera is home to Nice, Cannes, and Antibes. These cities offer beaches, museums, and nightlife options that are perfect for groups. Don't miss the sunset at Promenade des Anglais.",
+      "page_number": 3
+    },
+    {
+      "document": "south_france_guide_2.pdf",
+      "refined_text": "Try cooking classes in Provence or lavender field tours. Local guides recommend early morning hikes followed by farmer's markets in Aix-en-Provence.",
+      "page_number": 5
+    },
+    {
+      "document": "south_france_guide_3.pdf",
+      "refined_text": "Book group train passes early for discounted travel. Hostels and Airbnb homes offer cheaper group stays. Avoid high-end tourist restaurants to save money.",
+      "page_number": 2
+    },
+    {
+      "document": "south_france_guide_2.pdf",
+      "refined_text": "Consider hostels in Nice or group rentals near beaches. Book at least 2 months in advance during summer. Look for reviews that mention group-friendly stays.",
+      "page_number": 6
+    },
+    {
+      "document": "south_france_guide_1.pdf",
+      "refined_text": "Use regional trains to travel between coastal cities. Walking tours are available in every major city. Consider renting bikes for day trips.",
+      "page_number": 4
+    }
+  ]
+}
